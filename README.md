@@ -1,3 +1,3 @@
 # cracker
-workout all possible combinations of inputted characters
-/n need to make it more safisticated
+workout all possible combinations of inputted characters,
+need to make it more safisticated
