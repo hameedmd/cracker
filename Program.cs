@@ -25,11 +25,11 @@ namespace cracker
 
             if (fifthCharacter == "na")
             {
-                var alphabet = firstCharacter + secondCharacter + thirdCharacter + fourthCharacter ;
-                var q = alphabet.Select(x => x.ToString());
+                var combo = firstCharacter + secondCharacter + thirdCharacter + fourthCharacter ;
+                var q = combo.Select(x => x.ToString());
                 int size = 4;
                 for (int i = 0; i < size - 1; i++)
-                    q = q.SelectMany(x => alphabet, (x, y) => x + y);
+                    q = q.SelectMany(x => combo, (x, y) => x + y);
 
                 foreach (var item in q)
                     Console.WriteLine(item);
